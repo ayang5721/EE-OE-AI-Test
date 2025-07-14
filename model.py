@@ -70,12 +70,12 @@ openai_request = {
     {"role": "user", "content": user_input}
   ],
   "temperature": 0.7,
-  "max_tokens": 2048
+  "max_tokens": 4096
 }
 
 # Actual API call
 response = openai.ChatCompletion.create(
-  model=openai_request["model"],
+  model='gpt-4.1',
   messages=openai_request["messages"],
   temperature=openai_request["temperature"],
   max_tokens=openai_request["max_tokens"]
