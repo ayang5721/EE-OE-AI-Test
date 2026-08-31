@@ -7,3 +7,7 @@ This repository contains files for audio to text translation. The purpose is to 
 ## Important Rules
 
 All context files must be added in the documents folder as .txt files
+
+
+
+NOTE: demonstration purpose prototype.
